@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": ["ES2023", "DOM"],
+    "module": "ESNext",
+    "jsx": "react-jsx",
+
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "noEmit": true,
+
+    "types": ["vite/client"],
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
